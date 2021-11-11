@@ -85,19 +85,6 @@ android_app_import {
 	product_specific: true,
 }
 
-dex_import {
-	name: "com.fingerprints.extension",
-	owner: "sony",
-	jars: ["proprietary/framework/com.fingerprints.extension.jar"],
-}
-
-dex_import {
-	name: "qcrilhook",
-	owner: "sony",
-	jars: ["proprietary/product/framework/qcrilhook.jar"],
-	product_specific: true,
-}
-
 cc_prebuilt_library_shared {
 	name: "libaudio_log_utils",
 	owner: "sony",
